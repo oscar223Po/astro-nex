@@ -5161,6 +5161,9 @@ function initSliders() {
       //preloadImages: false,
       //lazy: true,
       effect: "flip",
+      flipEffect: {
+        slideShadows: false
+      },
       /*
       // Ефекти
       effect: 'fade',
