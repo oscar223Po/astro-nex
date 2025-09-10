@@ -1014,12 +1014,6 @@ body {
 }
 .slide-quote {
   text-align: center;
-  /* 	opacity: 0;
-  	visibility: hidden;
-  	&.swiper-slide-active {
-  		opacity: 1;
-  		visibility: visible;
-  	} */
 }
 .slide-quote__head {
   position: relative;
