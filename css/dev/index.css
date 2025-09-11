@@ -920,8 +920,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
 .input {
   width: 100%;
   outline: none;
-  display: flex;
-  align-items: center;
   padding: 0 1.875rem;
   min-height: 3.6875rem;
   border-radius: 1.875rem;
