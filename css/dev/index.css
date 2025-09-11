@@ -1080,28 +1080,45 @@ textarea.input {
   grid-template-columns: repeat(2, 1fr);
 }
 .dest__body {
-  /* 		&::before,
-  		&::after {
-  			z-index: -1;
-  			content: "";
-  			position: absolute;
-  		}
-  		&::before {
-  			top: -5.8125rem;
-  			left: -8.8125rem;
-  			width: 19.75rem;
-  			height: 18.1875rem;
-  			background: url("@img/dest/decore-01.svg") 0 0 / contain no-repeat;
-  		}
-  		&::after {
-  			width: 32.375rem;
-  			height: 11.75rem;
-  			right: -21.375rem;
-  			background: url("@img/dest/decore-02.svg") 0 0 / contain no-repeat;
-  			@media (min-width: toEm($tablet)) {
-  				bottom: -8.125rem;
-  			}
-  		} */
+  /*
+  &::before,
+  &::after {
+  	z-index: -1;
+  	content: "";
+  	position: absolute;
+  }
+  &::before {
+  	top: -5.8125rem;
+  	left: -8.8125rem;
+  	width: 19.75rem;
+  	height: 18.1875rem;
+  	background: url("@img/dest/decore-01.svg") 0 0 / contain no-repeat;
+  }
+  &::after {
+  	width: 32.375rem;
+  	height: 11.75rem;
+  	right: -21.375rem;
+  	background: url("@img/dest/decore-02.svg") 0 0 / contain no-repeat;
+  	@media (min-width: toEm($tablet)) {
+  		bottom: -8.125rem;
+  	}
+  }
+  @media (max-width: toEm($tablet)) {
+  	&::before,
+  	&::after {
+  		opacity: 0.6;
+  	}
+  	&::before {
+  		left: 0;
+  		translate: -50% 0;
+  	}
+  	&::after {
+  		top: 50%;
+  		right: 0;
+  		translate: 50% -50%;
+  	}
+  }
+  */
 }
 .dest__headed > * {
   margin-bottom: 0.9375rem;
@@ -1243,46 +1260,48 @@ textarea.input {
 }
 .quote__body {
   position: relative;
-  /* 		&::before,
-  		&::after {
-  			z-index: -1;
-  			content: "";
-  			position: absolute;
-  		}
-  		&::before {
-  			left: 0;
-  			width: 19.875rem;
-  			bottom: -4rem;
-  			height: 15.625rem;
-  			background: url("@img/quote/decore-01.svg") 0 0 / contain no-repeat;
-  			@include adaptiveValue("left", 0, 150, 2, 1920, 1439.98);
-  			@media (min-width: toEm(1439.98)) {
-  				translate: calc(-100% - toRem(14)) 0;
-  			}
-  			@media (max-width: toEm(1439.98)) {
-  				translate: -50% 0;
-  			}
-  		}
-  		&::after {
-  			right: 0;
-  			top: -15.6875rem;
-  			width: 15.0625rem;
-  			height: 33.5625rem;
-  			background: url("@img/quote/decore-02.svg") 0 0 / contain no-repeat;
-  			@include adaptiveValue("right", 0, 150, 2, 1920, 1439.98);
-  			@media (min-width: toEm(1439.98)) {
-  				translate: calc(100% - toRem(-60)) 0;
-  			}
-  			@media (max-width: toEm(1439.98)) {
-  				translate: 50% 0;
-  			}
-  		}
-  		@media (max-width: toEm($tablet)) {
-  			&::before,
-  			&::after {
-  				opacity: 0.6;
-  			}
-  		} */
+  /*
+  &::before,
+  &::after {
+  	z-index: -1;
+  	content: "";
+  	position: absolute;
+  }
+  &::before {
+  	left: 0;
+  	width: 19.875rem;
+  	bottom: -4rem;
+  	height: 15.625rem;
+  	background: url("@img/quote/decore-01.svg") 0 0 / contain no-repeat;
+  	@include adaptiveValue("left", 0, 150, 2, 1920, 1439.98);
+  	@media (min-width: toEm(1439.98)) {
+  		translate: calc(-100% - toRem(14)) 0;
+  	}
+  	@media (max-width: toEm(1439.98)) {
+  		translate: -50% 0;
+  	}
+  }
+  &::after {
+  	right: 0;
+  	top: -15.6875rem;
+  	width: 15.0625rem;
+  	height: 33.5625rem;
+  	background: url("@img/quote/decore-02.svg") 0 0 / contain no-repeat;
+  	@include adaptiveValue("right", 0, 150, 2, 1920, 1439.98);
+  	@media (min-width: toEm(1439.98)) {
+  		translate: calc(100% - toRem(-60)) 0;
+  	}
+  	@media (max-width: toEm(1439.98)) {
+  		translate: 50% 0;
+  	}
+  }
+  @media (max-width: toEm($tablet)) {
+  	&::before,
+  	&::after {
+  		opacity: 0.6;
+  	}
+  }
+  */
 }
 .quote__slider {
   position: relative;
@@ -1586,19 +1605,6 @@ textarea.input {
   .dest__body {
     align-items: start;
     grid-template-columns: 1fr;
-    /* 			&::before,
-    			&::after {
-    				opacity: 0.6;
-    			}
-    			&::before {
-    				left: 0;
-    				translate: -50% 0;
-    			}
-    			&::after {
-    				top: 50%;
-    				right: 0;
-    				translate: 50% -50%;
-    			} */
   }
   .dest__view {
     order: 2;
