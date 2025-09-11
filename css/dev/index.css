@@ -68,60 +68,59 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
-@font-face {
-	font-family: "iconfont";
+@font-face { 
+	font-family: "iconfont"; 
 	font-display: swap;
-	src: url("../assets/fonts/iconfont.woff2?112ef843a506fc9e394b54afd0902fd7")
-		format("woff2");
+	src: url("../assets/fonts/iconfont.woff2?112ef843a506fc9e394b54afd0902fd7") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
 }
-[class*="--icon-"]::before {
-	font-family: iconfont;
-}
-[class*="--icon-star"]::before {
-	content: "\f101";
-}
-[class*="--icon-star-circle"]::before {
-	content: "\f102";
-}
-[class*="--icon-s-yu"]::before {
-	content: "\f103";
-}
-[class*="--icon-s-xt"]::before {
-	content: "\f104";
-}
-[class*="--icon-s-in"]::before {
-	content: "\f105";
-}
-[class*="--icon-s-fc"]::before {
-	content: "\f106";
-}
-[class*="--icon-rate"]::before {
-	content: "\f107";
-}
-[class*="--icon-phone"]::before {
-	content: "\f108";
-}
-[class*="--icon-mark"]::before {
-	content: "\f109";
-}
-[class*="--icon-location"]::before {
-	content: "\f10a";
-}
-[class*="--icon-date"]::before {
-	content: "\f10b";
-}
-[class*="--icon-clock"]::before {
-	content: "\f10c";
-}
-[class*="--icon-bag"]::before {
-	content: "\f10d";
-}
-[class*="--icon-article"]::before {
-	content: "\f10e";
-}
-[class*="--icon-arrow"]::before {
-	content: "\f10f";
-}
+	[class*="--icon-star"]::before { 
+		content: "\f101"; 
+	} 
+	[class*="--icon-star-circle"]::before { 
+		content: "\f102"; 
+	} 
+	[class*="--icon-s-yu"]::before { 
+		content: "\f103"; 
+	} 
+	[class*="--icon-s-xt"]::before { 
+		content: "\f104"; 
+	} 
+	[class*="--icon-s-in"]::before { 
+		content: "\f105"; 
+	} 
+	[class*="--icon-s-fc"]::before { 
+		content: "\f106"; 
+	} 
+	[class*="--icon-rate"]::before { 
+		content: "\f107"; 
+	} 
+	[class*="--icon-phone"]::before { 
+		content: "\f108"; 
+	} 
+	[class*="--icon-mark"]::before { 
+		content: "\f109"; 
+	} 
+	[class*="--icon-location"]::before { 
+		content: "\f10a"; 
+	} 
+	[class*="--icon-date"]::before { 
+		content: "\f10b"; 
+	} 
+	[class*="--icon-clock"]::before { 
+		content: "\f10c"; 
+	} 
+	[class*="--icon-bag"]::before { 
+		content: "\f10d"; 
+	} 
+	[class*="--icon-article"]::before { 
+		content: "\f10e"; 
+	} 
+	[class*="--icon-arrow"]::before { 
+		content: "\f10f"; 
+	} 
 
 
 
